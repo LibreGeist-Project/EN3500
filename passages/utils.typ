@@ -1,4 +1,4 @@
-#import "../style.typ": zh_style, en_style
+#import "../style.typ": en_style, zh_style
 
 #let passage(en, zh) = {
   en_style(en)
@@ -7,7 +7,5 @@
 }
 
 #let aword(word) = {
-  box(
-  box(word, radius: 0.5mm, fill:luma(200))
-)
+  box(box(word, radius: 0.5mm, fill: luma(200)))
 }
