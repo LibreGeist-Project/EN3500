@@ -1,4 +1,4 @@
-#import "style.typ": zh_style, en_style
+#import "../style.typ": zh_style, en_style
 
 #let passage(en, zh) = {
   en_style(en)
