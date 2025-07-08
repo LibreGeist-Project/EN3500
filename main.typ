@@ -2,5 +2,10 @@
 #show: def_style
 
 #{
-  include "1.typ"
+  let i = 1
+  while i <= 40 {
+    let filename = "passages/"+str(i)+".typ"
+    include filename
+    i = i+1
+  }
 }
